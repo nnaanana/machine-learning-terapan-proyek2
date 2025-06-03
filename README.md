@@ -508,4 +508,4 @@ Proyek ini berhasil mengembangkan sistem rekomendasi dengan memanfaatkan dua pen
 
 - **Collaborative Filtering (CF)** menyarankan produk berdasarkan pola interaksi dari pengguna lain yang memiliki preferensi serupa, dan dievaluasi menggunakan metrik kuantitatif yang menunjukkan performa yang cukup baik dalam mengidentifikasi item yang relevan.
 
-GKombinasi kedua pendekatan ini memiliki potensi untuk meningkatkan efektivitas sistem rekomendasi secara keseluruhan, dengan menggabungkan analisis terhadap karakteristik produk dan kebiasaan pengguna.
+Kombinasi kedua pendekatan ini memiliki potensi untuk meningkatkan efektivitas sistem rekomendasi secara keseluruhan, dengan menggabungkan analisis terhadap karakteristik produk dan kebiasaan pengguna.
