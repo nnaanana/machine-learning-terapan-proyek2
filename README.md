@@ -90,7 +90,7 @@ Dataset terdiri dari tiga file utama:
    - **Kolom Utama**:
      - `user_id`: ID unik untuk setiap pengguna.
      - `cellphone_id`: ID unik untuk setiap ponsel.
-     - `rating`: Rating yang diberikan pengguna (skala 1-5).
+     - `rating`: Rating yang diberikan pengguna (skala 1-10).
 
 3. **`cellphones_users.csv`**:
    - Berisi informasi demografi pengguna yang dapat digunakan untuk analisis tambahan.
@@ -229,7 +229,7 @@ Dataset terdiri dari tiga file utama:
 
      ![alt text](https://github.com/user-attachments/assets/b0aeb649-c063-41bf-a2b2-a184ba595d03)
 
-     Nilai rating berkisar antara 1 hingga 10. Rating yang paling sering muncul adalah nilai 8 dengan **195** kemunculan, sedangkan rating yang paling jarang diberikan adalah nilai 3 dengan **30** kemunculan. Selain itu, terdapat outlier pada nilai rating sebesar 18.
+     Nilai rating berkisar antara 1 hingga 10. Rating yang paling sering muncul adalah nilai 8 dengan **195** kemunculan, sedangkan rating yang paling jarang diberikan adalah nilai 3 dengan **30** kemunculan. Selain itu, **terdapat outlier pada nilai rating sebesar 18**.
 
    - **Distribusi Usia Pengguna**
 
@@ -386,11 +386,11 @@ Dalam proyek ini, dibangun dua pendekatan utama sistem rekomendasi untuk membant
 
    Sebagai contoh, ketika model acuan adalah **"iPhone 13 Pro"**, sistem memberikan rekomendasi model-model lain dengan kemiripan tinggi berdasarkan merek sebagai berikut:
 
-   - iPhone 12
-   - iPhone 11 Pro
+   - iPhone XR
+   - iPhone 13 Pro Max
+   - iPhone 13 Mini
+   - iPhone SE (2022)
    - iPhone 13
-   - iPhone 12 Pro
-   - iPhone 11
 
    Rekomendasi ini menunjukkan bahwa model-model Apple dengan seri yang mirip akan lebih disarankan karena kesamaan merek yang kuat secara representasi TF-IDF.
 
@@ -421,11 +421,11 @@ Dalam proyek ini, dibangun dua pendekatan utama sistem rekomendasi untuk membant
 
    Contoh hasil rekomendasi:
 
-   - Samsung Galaxy A72
-   - OPPO Reno5
-   - Vivo V21
-   - Xiaomi Redmi Note 10 Pro
-   - Realme 8
+   - Pixel 6 Pro 
+   - iPhone SE (2022)
+   - Galaxy A32
+   - Redmi Note 11
+   - iPhone 13
 
    Model-model ini dipilih berdasarkan **rata-rata rating tertinggi** dari pengguna lain yang paling mirip dengan pengguna target.
 
