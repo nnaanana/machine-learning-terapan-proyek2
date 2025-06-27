@@ -142,7 +142,7 @@ Analisis ini mencari genre yang rata-rata memiliki penilaian pengguna paling tin
 ### Model : Content-Based Filtering
 
 * Menghitung **cosine similarity** antar film berdasarkan vektor TF-IDF berikut ini Formula nya :  
-  ![image](https://github.com/user-attachments/assets/acd041c51-f43b-49f1-8066-17cbc40fde73)  
+  ![image](https://github.com/user-attachments/assets/118fcd36-baac-48f8-883f-ffe483b89a2b)  
     Keterangan:  
   ```
   𝑠𝑖𝑚(𝐴, 𝐵) = nilai similaritas dari item A dan item B
