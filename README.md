@@ -243,11 +243,10 @@ Film dengan **users\_rating ≥ 6.0** dianggap relevan.
 
 ---
 ## Referensi 
-1. Bawden, D., & Robinson, L. (2009). The dark side of information: overload, anxiety and other paradoxes and pathologies. Journal of Information Science, 35(2), 180–191. 
-2. Ricci, F., Rokach, L., & Shapira, B. (2015). Recommender Systems Handbook. Springer. Diakses dari[https://link.springer.com/chapter/10.1007/978-1-0716-2197-4_1]
-3. Pazzani, M. J., & Billsus, D. (2007). Content-based recommendation systems. In The adaptive web (pp. 325-341). Springer. Diakses dari [https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10]
-4. Aggarwal, C. C. (2016). Recommender systems: the textbook. Springer. Diakses dari [https://link.springer.com/book/10.1007/978-3-319-29659-3]
-5. Manning, C. D., Raghavan, P., & Schütze, H. (2008). Introduction to information retrieval. Cambridge University Press. Diakses dari [https://www.cis.uni-muenchen.de/~hs/teach/14s/ir/pdf/19web.pdf]
-6. Scikit-learn Documentation. (2023). TfidfVectorizer. Diakses dari [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html]
-7. Badan Ekonomi Kreatif Indonesia. (2020). Data Statistik dan Hasil Survei Ekonomi Kreatif. Jakarta: BEKRAF. [https://kemenparekraf.go.id/publikasi-statistik-ekonomi-kreatif/statistik-ekonomi-kreatif-2020]
----
+1. Aggarwal, C. C. (2016). Recommender systems: the textbook. Springer. Diakses dari [https://link.springer.com/book/10.1007/978-3-319-29659-3]
+2. Badan Ekonomi Kreatif Indonesia. (2020). Data Statistik dan Hasil Survei Ekonomi Kreatif. Jakarta: BEKRAF. [https://kemenparekraf.go.id/publikasi-statistik-ekonomi-kreatif/statistik-ekonomi-kreatif-2020]
+3. Bawden, D., & Robinson, L. (2009). The dark side of information: overload, anxiety and other paradoxes and pathologies. Journal of Information Science, 35(2), 180–191. Diaksess dari [https://pmc.ncbi.nlm.nih.gov/articles/PMC10322198/?utm_source=chatgpt.com]
+4. Manning, C. D., Raghavan, P., & Schütze, H. (2008). Introduction to information retrieval. Cambridge University Press. Diakses dari [https://www.cis.uni-muenchen.de/~hs/teach/14s/ir/pdf/19web.pdf]
+5. Pazzani, M. J., & Billsus, D. (2007). Content-based recommendation systems. In The adaptive web (pp. 325-341). Springer. Diakses dari [https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10]
+6. Ricci, F., Rokach, L., & Shapira, B. (2015). Recommender Systems Handbook. Springer. Diakses dari[https://link.springer.com/chapter/10.1007/978-1-0716-2197-4_1]
+8. Scikit-learn Documentation. (2023). TfidfVectorizer. Diakses dari [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html]
