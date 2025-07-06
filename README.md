@@ -70,7 +70,7 @@ Struktur Data :
   + `genre` (36 nilai kosong): Diisi dengan 'unknown' agar tetap dapat digunakan dalam sistem rekomendasi.
   + `rating`(896 nilai kosong): Diisi dengan 'unrated'. Selain itu, kategori rating diformulasikan ulang dari 11 jenis menjadi 5 kategori utama untuk menyederhanakan analisis.
   + `directors`(7 nilai kosong): Diisi dengan 'unknown' untuk menjaga kelengkapan informasi film.
-  + runtime (403 nilai kosong): Nilai kosong digantikan dengan 'unknown' karena informasi durasi tetap relevan bagi pengguna.
+  + `runtime` (403 nilai kosong): Nilai kosong digantikan dengan 'unknown' karena informasi durasi tetap relevan bagi pengguna.
  
 * Nilai duplikasi : Tidak ditemukan data duplikat dalam dataset. 
 * Mengubah tipe data pada kolom :
