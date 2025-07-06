@@ -229,23 +229,24 @@ Film dengan **users\_rating ≥ 6.0** dianggap relevan.
 
 ## Kesimpulan
 
-1. Business Problem pertama:  
+1. **Business Problem pertama:**  
   Sistem ini berhasil merekomendasikan film berdasarkan kemiripan konten tanpa memerlukan data interaksi pengguna. Rekomendasi yang dihasilkan menunjukkan hubungan yang erat antara deskripsi, genre, dan judul film, seperti contohnya rekomendasi Dilan 1991 dan Milea untuk Dilan 1990. Hal ini membuktikan bahwa metode content-based filtering efektif dalam mengenali kesamaan konten antar film.
 
-2. Business Problem kedua:  
+2. **Business Problem kedua:**  
   Model ini berhasil mencapai nilai Average Precision@5 sebesar 0.48, yang menunjukkan bahwa rata-rata 2 hingga 3 dari 5 film yang direkomendasikan relevan dengan kriteria user_rating ≥ 6.0. Nilai precision ini cukup baik sebagai baseline untuk sistem rekomendasi berbasis konten, terutama mengingat sistem ini tidak mengandalkan data interaksi pengguna (seperti yang digunakan dalam sistem collaborative filtering).
 
-3. Insight tambahan dari EDA:  
+3. **Insight tambahan dari EDA:**  
   Dari analisis eksplorasi data (EDA), ditemukan bahwa genre drama, komedi, dan horror mendominasi industri perfilman Indonesia, sementara genre history memiliki rata-rata user rating tertinggi. Temuan ini memberikan wawasan yang berguna untuk pengembangan sistem rekomendasi ke depan, dengan mempertimbangkan faktor genre lebih dalam untuk meningkatkan relevansi rekomendasi bagi pengguna.
 
-Secara keseluruhan, sistem rekomendasi ini siap diimplementasikan pada platform film Indonesia berbasis streaming atau katalog digital untuk membantu pengguna menemukan film yang sesuai preferensi mereka secara lebih cepat dan relevan.
+**Secara keseluruhan, sistem rekomendasi ini siap diimplementasikan pada platform film Indonesia berbasis streaming atau katalog digital untuk membantu pengguna menemukan film yang sesuai preferensi mereka secara lebih cepat dan relevan.**
 
 ---
 ## Referensi 
-1. Ricci, F., Rokach, L., & Shapira, B. (2015). Recommender Systems Handbook. Springer. Diakses dari[https://link.springer.com/chapter/10.1007/978-1-0716-2197-4_1]
-2. Pazzani, M. J., & Billsus, D. (2007). Content-based recommendation systems. In The adaptive web (pp. 325-341). Springer. Diakses dari [https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10]
-3. Aggarwal, C. C. (2016). Recommender systems: the textbook. Springer. Diakses dari [https://link.springer.com/book/10.1007/978-3-319-29659-3]
-4. Manning, C. D., Raghavan, P., & Schütze, H. (2008). Introduction to information retrieval. Cambridge University Press. Diakses dari [https://www.cis.uni-muenchen.de/~hs/teach/14s/ir/pdf/19web.pdf]
-5. Scikit-learn Documentation. (2023). TfidfVectorizer. Diakses dari [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html]
-6. Badan Ekonomi Kreatif Indonesia. (2020). Data Statistik dan Hasil Survei Ekonomi Kreatif. Jakarta: BEKRAF. [https://kemenparekraf.go.id/publikasi-statistik-ekonomi-kreatif/statistik-ekonomi-kreatif-2020]
+1. Bawden, D., & Robinson, L. (2009). The dark side of information: overload, anxiety and other paradoxes and pathologies. Journal of Information Science, 35(2), 180–191. 
+2. Ricci, F., Rokach, L., & Shapira, B. (2015). Recommender Systems Handbook. Springer. Diakses dari[https://link.springer.com/chapter/10.1007/978-1-0716-2197-4_1]
+3. Pazzani, M. J., & Billsus, D. (2007). Content-based recommendation systems. In The adaptive web (pp. 325-341). Springer. Diakses dari [https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10]
+4. Aggarwal, C. C. (2016). Recommender systems: the textbook. Springer. Diakses dari [https://link.springer.com/book/10.1007/978-3-319-29659-3]
+5. Manning, C. D., Raghavan, P., & Schütze, H. (2008). Introduction to information retrieval. Cambridge University Press. Diakses dari [https://www.cis.uni-muenchen.de/~hs/teach/14s/ir/pdf/19web.pdf]
+6. Scikit-learn Documentation. (2023). TfidfVectorizer. Diakses dari [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html]
+7. Badan Ekonomi Kreatif Indonesia. (2020). Data Statistik dan Hasil Survei Ekonomi Kreatif. Jakarta: BEKRAF. [https://kemenparekraf.go.id/publikasi-statistik-ekonomi-kreatif/statistik-ekonomi-kreatif-2020]
 ---
