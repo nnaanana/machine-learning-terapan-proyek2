@@ -153,36 +153,36 @@ Analisis ini bertujuan untuk menemukan genre dengan rata-rata penilaian pengguna
   ```
   
 #### Kelebihan:
-1. Tidak Memerlukan Data User  
-  Sistem hanya butuh informasi dari item itu sendiri (judul, deskripsi, genre), tanpa perlu data interaksi pengguna.
+1. Tidak Bergantung pada Data User
+  Sistem hanya memerlukan informasi dari konten film itu sendiri—seperti judul, deskripsi, dan genre—tanpa memerlukan riwayat interaksi pengguna.
 
-2. Bisa Merekomendasikan Film Baru  
-  Film yang belum pernah ditonton siapa pun tetap bisa direkomendasikan selama memiliki konten deskripsi/genre.
+2. Mampu Merekomendasikan Film Baru
+  Film yang belum pernah ditonton oleh siapa pun tetap dapat direkomendasikan, selama memiliki informasi konten yang memadai.
 
-3. Personalisasi Berdasarkan Konten  
-  Rekomendasi film dihasilkan berdasarkan kemiripan konten, sehingga hasilnya bisa sesuai minat user jika preferensinya diketahui.
+3. Personalisasi Berdasarkan Karakteristik Film
+  Rekomendasi dihasilkan berdasarkan kemiripan konten antar film, sehingga jika preferensi pengguna diketahui, hasilnya akan cenderung lebih relevan dan sesuai minat.
 
-4. Mudah Diimplementasikan  
-  Prosesnya cukup dengan TF-IDF vectorization + cosine similarity, tanpa algoritma training yang berat.
+4. Implementasi yang Sederhana dan Efisien
+  Dapat dibangun dengan teknik dasar seperti TF-IDF vectorization dan cosine similarity, tanpa perlu algoritma pelatihan kompleks.
 
-5. Bebas dari Masalah Cold-Start User  
-  Karena tidak butuh data aktivitas user, pengguna baru tetap bisa dapat rekomendasi bagus.
+5. Tidak Terpengaruh Masalah Cold-Start untuk Pengguna Baru
+  Karena tidak memerlukan data historis pengguna, sistem tetap mampu memberikan rekomendasi yang relevan bagi pengguna yang baru pertama kali menggunakan layanan.
 
 #### Kekurangan:
-1. Fokus Terbatas ke Karakteristik Item  
-  Hanya melihat kemiripan konten antar item tanpa mempertimbangkan perilaku atau rating pengguna lain, sehingga bisa melewatkan film bagus yang beda genre tapi disukai user serupa.
+1. Terbatas pada Informasi Item Saja
+  Sistem hanya mengandalkan atribut dari film (seperti deskripsi dan genre), tanpa mempertimbangkan preferensi atau perilaku pengguna lain. Akibatnya, film dengan genre berbeda yang sebenarnya disukai oleh pengguna serupa bisa terlewatkan.
 
-2. Rekomendasi Cenderung Monoton  
-  Rekomendasi biasanya sangat mirip konten, sehingga user bisa bosan karena film yang direkomendasikan terlalu serupa.
+2. Rekomendasi Kurang Variatif
+  Karena fokus pada kesamaan konten, sistem cenderung merekomendasikan film yang sangat mirip satu sama lain. Hal ini dapat membuat pengguna merasa jenuh karena tidak mendapatkan keberagaman pilihan.
 
-3. Tidak Bisa Menangkap Tren Kolektif  
-  Sistem tidak tahu film mana yang sedang populer atau disukai banyak orang, karena tidak mempertimbangkan data komunitas.
+3. Tidak Menangkap Popularitas Secara Kolektif
+  Sistem tidak mampu mendeteksi film yang sedang tren atau populer di kalangan banyak pengguna, karena tidak melibatkan data komunitas atau rating secara agregat.
 
-4. Fitur Konten Harus Lengkap dan Berkualitas  
-  Jika deskripsi atau genre film banyak yang kosong atau tidak konsisten, performa rekomendasi bisa menurun.
+4. Ketergantungan pada Kualitas dan Kelengkapan Fitur Konten
+  Jika atribut seperti deskripsi atau genre film tidak lengkap, tidak konsisten, atau berkualitas rendah, maka akurasi sistem rekomendasi akan menurun secara signifikan.
 
-5. Rentan Terhadap Skema Kata  
-  Jika deskripsi film tidak konsisten atau terlalu pendek, cosine similarity antar TF-IDF vektornya bisa terlalu rendah meski sebetulnya filmnya mirip.
+5. Sensitif terhadap Format dan Struktur Teks
+  Sistem rentan terhadap variasi kata atau penyusunan deskripsi. Jika deskripsi terlalu singkat, tidak informatif, atau tidak distandarisasi, maka kemiripan antar film yang sebenarnya relevan bisa tidak terdeteksi dengan baik oleh cosine similarity.
 
 ---
 
