@@ -40,7 +40,7 @@ Pengembangan sistem rekomendasi berbasis konten ini sangat relevan untuk menduku
 
 ## Data Understanding
 
-Dataset yang digunakan berasal dari [Kaggle-IMDB Indonesian Movies](https://www.kaggle.com/datasets/dionisiusdh/imdb-indonesian-movies)
+Dataset yang digunakan dalam proyek ini diambil dari [Kaggle-IMDB Indonesian Movies](https://www.kaggle.com/datasets/dionisiusdh/imdb-indonesian-movies). Dataset ini menjadi dasar utama untuk membangun dan menguji sistem rekomendasi berbasis konten.
 
 Struktur Data :
 
@@ -66,19 +66,15 @@ Struktur Data :
 ---
 ## Data Cleaning
 * Nilai kosong :
-  + `description` : 432  
-    Mengisi nilai kosong di kolom deskripsi dengan 'unknown'
-  + `genre` : 36  
-    Mengisi nilai kosong di kolom genre dengan 'unknown'
-  + `rating` : 896  
-    Mengisi nilai kosong di kolom rating dengan 'unrated' serta mengubah 11 kategori rating menjadi 5 kategori rating
-  + `directors` : 7  
-    Mengisi nilai kosong di kolom directors dengan 'unknown'
-  + `runtime` :403  
-    Mengisi nilai kosong di kolom runtime dengan 'unknown'
-* Nilai duplikasi : Tidak ada nilai duplikasi  
+  + `description` (432 nilai kosong): Diisi dengan nilai 'unknown' untuk mempertahankan data yang tetap berguna dalam analisis.
+  + `genre` (36 nilai kosong): Diisi dengan 'unknown' agar tetap dapat digunakan dalam sistem rekomendasi.
+  + `rating`(896 nilai kosong): Diisi dengan 'unrated'. Selain itu, kategori rating diformulasikan ulang dari 11 jenis menjadi 5 kategori utama untuk menyederhanakan analisis.
+  + `directors`(7 nilai kosong): Diisi dengan 'unknown' untuk menjaga kelengkapan informasi film.
+  + runtime (403 nilai kosong): Nilai kosong digantikan dengan 'unknown' karena informasi durasi tetap relevan bagi pengguna.
+ 
+* Nilai duplikasi : Tidak ditemukan data duplikat dalam dataset. 
 * Mengubah tipe data pada kolom :
-  + `votes` : mengubah tipe data object menjadi integer
+  + `votes` : Tipe data diubah dari object menjadi integer untuk memungkinkan analisis numerik lebih lanjut.
 
 ---
 ## Exploration Data Analysis (EDA)
