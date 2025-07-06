@@ -113,7 +113,7 @@ Analisis ini bertujuan untuk menemukan genre dengan rata-rata penilaian pengguna
 
 ## Data Preparation
 
-### Tahapan:
+### Langkah-Langkah:
 * Membuat kolom `combined` berisi gabungan:
 
   ```python
@@ -138,7 +138,8 @@ Analisis ini bertujuan untuk menemukan genre dengan rata-rata penilaian pengguna
 ### Model : Content-Based Filtering
 
 * Menghitung **cosine similarity** antar film berdasarkan vektor TF-IDF berikut ini Formula nya :  
-  ![image](https://github.com/user-attachments/assets/118fcd36-baac-48f8-883f-ffe483b89a2b)  
+  ![image](https://github.com/user-attachments/assets/118fcd36-baac-48f8-883f-ffe483b89a2b)
+  
     Keterangan:  
   ```
   𝑠𝑖𝑚(𝐴, 𝐵) = nilai similaritas dari item A dan item B
