@@ -22,18 +22,19 @@ Pengembangan sistem rekomendasi berbasis konten ini sangat relevan untuk menduku
 
 ### Problem Statements
 
-* Bagaimana cara merekomendasikan film Indonesia berdasarkan kemiripan konten?
-* Seberapa baik performa sistem rekomendasi dalam menghasilkan rekomendasi yang relevan berdasarkan metrik evaluasi standar?
+* Bagaimana merancang sistem yang mampu merekomendasikan film Indonesia berdasarkan kesamaan konten?
+* Sejauh mana efektivitas sistem rekomendasi dalam menghasilkan saran yang relevan, diukur menggunakan metrik evaluasi standar?
+
 
 ### Goals
 
-* Membangun sistem rekomendasi film Indonesia berbasis **content-based filtering**.
-* Mengevaluasi performa sistem menggunakan metrik **Precision@5**.
+* Mengembangkan sistem rekomendasi film Indonesia dengan pendekatan content-based filtering. **content-based filtering**.
+* Mengukur kinerja sistem menggunakan metrik evaluasi **Precision@5**.
 
 ### Solution Statements
 
-* Menggunakan **TF-IDF Vectorizer** pada kolom gabungan `title`, `description`, dan `genre`.
-* Membangun fungsi rekomendasi yang dapat menampilkan top-5 film teratas berdasarkan **cosine similarity**.
+* Menerapkan  **TF-IDF Vectorizer** pada kolom gabungan yang mencakup `title`, `description`, dan `genre` untuk mengekstraksi fitur teks.
+* Merancang fungsi rekomendasi yang mampu menampilkan lima film teratas berdasarkan nilai **cosine similarity**.
 
 ---
 
