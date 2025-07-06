@@ -230,13 +230,13 @@ Film dengan **users\_rating ≥ 6.0** dianggap relevan.
 ## Kesimpulan
 
 1. Business Problem pertama:  
-  Sistem ini berhasil merekomendasikan film berdasarkan kemiripan konten tanpa membutuhkan data interaksi pengguna. Rekomendasi yang dihasilkan menunjukkan film-film dengan deskripsi, genre, dan judul yang berkaitan erat, seperti rekomendasi Dilan 1991 dan Milea untuk Dilan 1990, membuktikan efektivitas metode content-based dalam mengenali kemiripan isi.
+  Sistem ini berhasil merekomendasikan film berdasarkan kemiripan konten tanpa memerlukan data interaksi pengguna. Rekomendasi yang dihasilkan menunjukkan hubungan yang erat antara deskripsi, genre, dan judul film, seperti contohnya rekomendasi Dilan 1991 dan Milea untuk Dilan 1990. Hal ini membuktikan bahwa metode content-based filtering efektif dalam mengenali kesamaan konten antar film.
 
 2. Business Problem kedua:  
-  Model berhasil mencapai Average Precision@5 sebesar 0.48, yang berarti rata-rata 2-3 dari 5 film rekomendasi teratas benar-benar relevan sesuai kriteria users_rating ≥ 6.0. Nilai precision ini cukup baik untuk baseline sistem rekomendasi berbasis konten, mengingat tanpa menggunakan data interaksi user (collaborative).
+  Model ini berhasil mencapai nilai Average Precision@5 sebesar 0.48, yang menunjukkan bahwa rata-rata 2 hingga 3 dari 5 film yang direkomendasikan relevan dengan kriteria user_rating ≥ 6.0. Nilai precision ini cukup baik sebagai baseline untuk sistem rekomendasi berbasis konten, terutama mengingat sistem ini tidak mengandalkan data interaksi pengguna (seperti yang digunakan dalam sistem collaborative filtering).
 
 3. Insight tambahan dari EDA:  
-  Ditemukan bahwa genre drama, komedi, dan horror mendominasi industri film Indonesia, dan genre history memiliki rata-rata user rating tertinggi. Temuan ini bisa menjadi bahan pertimbangan dalam pengembangan sistem rekomendasi ke depan agar lebih mempertimbangkan faktor genre.
+  Dari analisis eksplorasi data (EDA), ditemukan bahwa genre drama, komedi, dan horror mendominasi industri perfilman Indonesia, sementara genre history memiliki rata-rata user rating tertinggi. Temuan ini memberikan wawasan yang berguna untuk pengembangan sistem rekomendasi ke depan, dengan mempertimbangkan faktor genre lebih dalam untuk meningkatkan relevansi rekomendasi bagi pengguna.
 
 Secara keseluruhan, sistem rekomendasi ini siap diimplementasikan pada platform film Indonesia berbasis streaming atau katalog digital untuk membantu pengguna menemukan film yang sesuai preferensi mereka secara lebih cepat dan relevan.
 
