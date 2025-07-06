@@ -82,36 +82,35 @@ Struktur Data :
 * Distribusi film berdasarkan tahun  
   ![image](https://github.com/user-attachments/assets/9f93847d-36ea-4fc5-9139-0329420e6017)
   
-Analisis ini bertujuan untuk mengetahui tren produksi film Indonesia dari tahun ke tahun. Dengan memplot jumlah film yang dirilis setiap tahun, dapat diamati apakah industri perfilman Indonesia mengalami pertumbuhan, stagnasi, atau penurunan. Hasil visualisasi menunjukkan peningkatan signifikan dalam jumlah film yang diproduksi setelah tahun-tahun tertentu, menandakan adanya perkembangan industri film lokal.
+Analisis ini dilakukan untuk mengamati tren produksi film Indonesia dari waktu ke waktu. Dengan memvisualisasikan jumlah film yang dirilis setiap tahunnya, dapat dievaluasi apakah industri perfilman Indonesia menunjukkan pola pertumbuhan, stagnasi, atau penurunan. Berdasarkan hasil plot, terlihat adanya lonjakan produksi film setelah tahun-tahun tertentu, yang mencerminkan kemajuan signifikan dalam perkembangan industri film nasional.
 
 * Genre film terbanyak pada data  
   ![image](https://github.com/user-attachments/assets/d78569f7-66c6-4794-bb56-bcac5883fdb1)
   
-Analisis ini mengidentifikasi genre paling populer atau paling sering diproduksi di Indonesia. Dengan menghitung frekuensi tiap genre, diketahui genre mana yang mendominasi dataset. Hasilnya memperlihatkan beberapa genre seperti drama, komedi, dan horror menjadi genre favorit, yang dapat digunakan sebagai dasar dalam mengembangkan sistem rekomendasi agar lebih relevan.
+Analisis ini bertujuan untuk mengenali genre film yang paling populer atau paling sering diproduksi di Indonesia. Dengan menghitung frekuensi kemunculan masing-masing genre dalam dataset, dapat diidentifikasi genre-genre yang mendominasi. Hasil analisis menunjukkan bahwa genre seperti drama, komedi, dan horor merupakan yang paling menonjol, sehingga informasi ini dapat dimanfaatkan sebagai landasan dalam pengembangan sistem rekomendasi yang lebih relevan dan sesuai dengan preferensi penonton.
 
 * Distribusi user rating  
   ![image](https://github.com/user-attachments/assets/c056c465-7552-49e1-898c-d909f547bffd)
   
-Distribusi ini menggambarkan bagaimana penilaian pengguna terhadap film-film Indonesia. Dengan melihat sebaran nilai `users_rating`, dapat diketahui bahwa kebanyakan film mendapat rating 6 sampai 7. Pola sebaran ini juga membantu dalam menentukan threshold relevansi pada tahap evaluasi model.
-
+Distribusi ini memberikan gambaran mengenai bagaimana pengguna menilai film-film Indonesia. Melalui sebaran nilai pada kolom `users_rating`, terlihat bahwa mayoritas film memperoleh rating antara 6 hingga 7. Pola ini tidak hanya mencerminkan persepsi umum penonton, tetapi juga berperan penting dalam menetapkan ambang batas (threshold) relevansi saat proses evaluasi model dilakukan.
 * Kategori rating film pada data  
   ![image](https://github.com/user-attachments/assets/ffdf56cc-ac1a-4d8c-99d2-e1fbfd56e494)
   
-Kategori rating mengacu pada klasifikasi umur/konten (seperti SU, R, D, dsb). Analisis ini memeriksa bagaimana distribusi film berdasarkan kategori rating, yang penting untuk memastikan sistem rekomendasi tidak merekomendasikan film yang tidak sesuai dengan preferensi usia pengguna.
+Kategori rating merujuk pada klasifikasi usia atau konten film (seperti SU, R, D, dan sebagainya). Analisis ini bertujuan untuk melihat distribusi film berdasarkan kategori rating tersebut. Informasi ini penting untuk memastikan bahwa sistem rekomendasi dapat menyaring dan menyesuaikan rekomendasi film sesuai dengan batasan usia atau preferensi pengguna, sehingga hasil rekomendasi tetap relevan dan aman bagi berbagai kelompok penonton.
 
 ### Multivariate EDA
 * Film populer pada masing masing genre  
   ![image](https://github.com/user-attachments/assets/3c99c0cc-7d7a-45a4-af6c-b221f0ed427a)
   
-Analisis ini menghubungkan antara popularitas (user_rating) dengan genre film. Tujuannya untuk mengetahui genre apa yang memiliki film-film yang disukai user. Informasi ini bermanfaat untuk mengidentifikasi genre yang layak difokuskan pada sistem rekomendasi.
+Analisis ini mengeksplorasi hubungan antara tingkat popularitas (ditinjau dari user_rating) dan genre film. Tujuan utamanya adalah untuk mengidentifikasi genre-genre yang cenderung memiliki film dengan penilaian tinggi dari pengguna. Informasi ini sangat berguna dalam menentukan genre mana yang sebaiknya menjadi fokus utama dalam pengembangan sistem rekomendasi, agar hasil yang diberikan lebih sesuai dengan preferensi dan minat penonton.
 
 * Genre dengan user rating tertinggi  
   ![image](https://github.com/user-attachments/assets/70935be2-0c32-4be2-b4cf-34c16e2daa6f)
 
-Analisis ini mencari genre yang rata-rata memiliki penilaian pengguna paling tinggi yaitu genre 'History'. Genre dengan rating rata-rata tinggi dapat dianggap memiliki kualitas konten yang baik
-
+Analisis ini bertujuan untuk menemukan genre dengan rata-rata penilaian pengguna tertinggi, di mana genre 'History' muncul sebagai yang paling menonjol. Genre dengan rating rata-rata tinggi umumnya mencerminkan kualitas konten yang lebih baik dan tingkat kepuasan penonton yang tinggi, sehingga dapat menjadi acuan dalam penyusunan strategi rekomendasi yang lebih efektif.
 
 ---
+
 ## Data Preparation
 
 ### Tahapan:
