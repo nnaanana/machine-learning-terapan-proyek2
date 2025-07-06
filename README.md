@@ -188,18 +188,18 @@ Analisis ini bertujuan untuk menemukan genre dengan rata-rata penilaian pengguna
 
 ### Result
 
-Contoh rekomendasi untuk film **Dilan 1990**:
+Contoh rekomendasi untuk film **Dilan 1991**:
 
 | Rekomendasi            | Skor Similarity |
 | :--------------------- | :-------------- |
-| Dilan 1991             | 0.4243          |
-| Milea                  | 0.3980          |
-| #FriendButMarried      | 0.0812          |
-| Rindu Kami Padamu      | 0.0712          |
-| From Bandung with Love | 0.0637          |
+| Milea                  | 0.489681        |
+| Dilan 1991             | 0.424312        |
+| Kera Sakti	           | 0.117860        |
+| Serigala Terakhir      | 0.106119        |
+| The Tarix Jabrix 3     | 0.085149        |
 
 **Insight:**  
-Rekomendasi teratas adalah film sekuel dan film dengan genre dan deskripsi serupa, yang menunjukkan sistem berhasil mengenali kemiripan konten.
+Rekomendasi teratas yang dihasilkan mencakup film-film sekuel dan film dengan genre serta deskripsi yang serupa, yang menunjukkan bahwa sistem berhasil mengidentifikasi kemiripan konten dengan baik.
 
 ---
 ## Model Evaluation
