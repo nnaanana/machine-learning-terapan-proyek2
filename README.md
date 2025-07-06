@@ -205,7 +205,7 @@ Rekomendasi teratas yang dihasilkan mencakup film-film sekuel dan film dengan ge
 ## Model Evaluation
 
 ### Visualisasi matriks similarity  
-![image](https://github.com/user-attachments/assets/04c2e300-537c-4da3-9ede-cf80f45f92eb)  
+![image](https://github.com/user-attachments/assets/8d746f96-09e1-4a94-a1d5-717d86d4ba8a)  
 
 Matriks similarity menunjukkan rendahnya kemiripan antar sebagian besar film berdasarkan konten teks TF-IDF (banyak nilai 0.00). Ini menyiratkan konten film yang sangat beragam/unik.
 
